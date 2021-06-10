@@ -1,0 +1,10 @@
+DEEPSORT:
+  REID_CKPT: "./deep_sort/deep/checkpoint/ckpt.t7"
+  MAX_DIST: 0.2 # bw embs, оразцы с большим расстоянием null
+  MIN_CONFIDENCE: 0.3 # для детектора 
+  NMS_MAX_OVERLAP: 0.5 # ROIs, которые превышают данную отметку - выкидываются
+  MAX_IOU_DISTANCE: 0.7 # ассоциации, которые > . не учитываются
+  MAX_AGE: 40 # сколько живет id, если он пропал (в фрэймах)
+  N_INIT: 3 # Трекер заводится через 3 фрэйма
+  NN_BUDGET: 100 
+  
