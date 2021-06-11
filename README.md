@@ -1,5 +1,4 @@
 <a name="">Start</a>
-Start
 ------------
 ```shell
 $ conda create --deepsort py38 python=3.8
