@@ -17,4 +17,8 @@ $ mv ckpt.t7 ./deep_sort/deep/checkpoint
 $ mv yolov4.weights ./detector/YOLOv3/weight
 ```
 
-* Видео в папке переименовать в 0.avi, 1.avi, 2.avi.
+<a name="">Ссылки</a>
+------------
+* Видео: https://drive.google.com/file/d/1ofvCBPVglLBigeoBvGSjKUlX2iqWRaGz/view?usp=sharing
+* Веса DeepSort: https://drive.google.com/file/d/11_tw4jj7YtNUCsgwim0Oo-VC3wF4r5jL/view?usp=sharing
+* Веса YoloV3: https://drive.google.com/file/d/1cfUKbBtm4IWIsRXedUCfyIai_eP6R-7y/view?usp=sharing
